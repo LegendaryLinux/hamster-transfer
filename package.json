@@ -1,0 +1,39 @@
+{
+  "name": "hamster-transfer",
+  "version": "1.0.0",
+  "description": "Speed up your devices with the power of hamsters!",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LegendaryLinux/hamster-transfer.git"
+  },
+  "keywords": [
+    "react",
+    "jsx",
+    "javascript",
+    "joke"
+  ],
+  "author": "Chris Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LegendaryLinux/hamster-transfer/issues"
+  },
+  "homepage": "https://github.com/LegendaryLinux/hamster-transfer#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.2.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}
