@@ -7,6 +7,10 @@
     font-size:          1.5em;
 }
 
+#intro-container{
+    width:              100%;
+}
+
 #get-started-button{
     background-color:   #68A691;
     color:              black;
@@ -27,6 +31,7 @@
     background-color:   #BFD3C1;
     margin-top:         3em;
     padding-top:        0.5em;
+    border-top:         2px solid #666666;
 }
 
 #testimonial-table{
