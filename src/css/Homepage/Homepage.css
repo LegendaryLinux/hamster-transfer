@@ -1,3 +1,38 @@
 #homepage{
-    width:              97%;
+    width:              100%;
+    margin-left:        auto;
+    margin-right:       auto;
+    margin-top:         1em;
+    text-align:         center;
+    font-size:          1.5em;
+}
+
+#get-started-button{
+    background-color:   #68A691;
+    color:              black;
+    border:             1px solid #694F5D;
+    border-radius:      4px;
+    padding:            0.25em 0.5em;
+    font-size:          1.5em;
+    font-family:        VT323, monospace;
+}
+
+#get-started-button:hover{
+    background-color:   #BFD3C1;
+    cursor:             pointer;
+}
+
+#testimonial-container{
+    width:              100%;
+    background-color:   #BFD3C1;
+    margin-top:         3em;
+    padding-top:        0.5em;
+}
+
+#testimonial-table{
+    margin-left:        auto;
+    margin-right:       auto;
+}
+#testimonial-table td{
+    padding:            0 2em;
 }

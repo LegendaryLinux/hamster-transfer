@@ -1,0 +1,22 @@
+.testimonial{
+    width:              13em;
+    height:             8em;
+    text-align:         left;
+}
+
+.testimonial p{
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+}
+
+.testimonial h3{
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+}
+
+.testimonial div{
+    display:            inline-block;
+    width:              100%;
+    text-align:         right;
+    margin-top:         0.5em;
+}

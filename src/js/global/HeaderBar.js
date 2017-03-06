@@ -31,7 +31,7 @@ class HeaderBar extends React.Component{
         return (
             <div id="header-bar">
                 <div id="header-bar-title" onClick={this.showHomepage}>
-                    <img src={Router.getImage('hamster-standing.png')}/>
+                    <img src={Router.getImage('hamster-standing.png')} id="header-bar-image"/>
                 </div>
             </div>
         );

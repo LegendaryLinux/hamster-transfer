@@ -1,6 +1,7 @@
 body{
     background-color:   #FFE5D4;
     margin:             0;
+    font-family:        "VT323", monospace;
 }
 
 #application{

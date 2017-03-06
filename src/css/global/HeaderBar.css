@@ -1,28 +1,24 @@
 #header-bar{
-    height:             3em;
+    height:             7em;
     position:           static;
     top:                0;
     left:               0;
     background-color:   #68A691;
-    width:              calc(100% - 1em);
-    line-height:        3em;
-    border-bottom:      1px solid #EFC7C2
+    width:              100%;
+    line-height:        6em;
+    border-bottom:      2px solid #666666;
 }
 
 #header-bar-title{
-    border-right:       1px solid #EFC7C2;
-    color:              #000000;
     display:            inline-block;
-    padding:            0.5em;
 }
 
-#header-bar-title img{
-    width:              3em;
-    height:             3em;
+#header-bar-image{
+    width:              7em;
+    height:             7em;
 }
 
 .header-bar-button{
-    border-right:       1px solid #EFC7C2;
     color:              #000000;
     display:            inline-block;
     padding:            0.5em;
