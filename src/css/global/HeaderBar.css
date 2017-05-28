@@ -16,6 +16,9 @@
     margin-top:         0.5em;
     height:             6em;
 }
+#header-bar-image:hover{
+    cursor:             pointer;
+}
 
 .header-bar-button{
     color:              #000000;
