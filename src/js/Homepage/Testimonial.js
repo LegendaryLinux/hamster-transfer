@@ -1,5 +1,6 @@
 import React from 'react';
-require('../../css/Homepage/Testimonial.css');
+import PropTypes from 'prop-types';
+import '../../css/Homepage/Testimonial.css';
 
 class Testimonial extends React.Component{
     render(){
@@ -13,9 +14,9 @@ class Testimonial extends React.Component{
     }
 }
 Testimonial.propTypes = {
-    name:       React.PropTypes.string.isRequired,
-    message:    React.PropTypes.string.isRequired,
-    summary:    React.PropTypes.string.isRequired,
+    name:       PropTypes.string.isRequired,
+    message:    PropTypes.string.isRequired,
+    summary:    PropTypes.string.isRequired,
 };
 
 export default Testimonial;

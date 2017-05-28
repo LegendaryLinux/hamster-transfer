@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import HeaderBar from './global/HeaderBar.js';
 import Homepage from './Homepage/Homepage.js';
-require('../css/index.css');
+import '../css/index.css';
 
 class HamsterTransfer extends React.Component{
     constructor(props){

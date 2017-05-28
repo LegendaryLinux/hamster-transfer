@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Homepage from '../Homepage/Homepage.js';
 import Router from '../global/Router.js';
-require('../../css/global/HeaderBar.css');
+import '../../css/global/HeaderBar.css';
 
 class HeaderBarButton extends React.Component{
     handleClick = () => {
@@ -17,9 +18,9 @@ class HeaderBarButton extends React.Component{
     }
 }
 HeaderBarButton.propTypes = {
-    changePage:     React.PropTypes.func.isRequired,
-    text:           React.PropTypes.string.isRequired,
-    targetPage:     React.PropTypes.func.isRequired,
+    changePage:     PropTypes.func.isRequired,
+    text:           PropTypes.string.isRequired,
+    targetPage:     PropTypes.func.isRequired,
 };
 
 class HeaderBar extends React.Component{
@@ -31,14 +32,14 @@ class HeaderBar extends React.Component{
         return (
             <div id="header-bar">
                 <div id="header-bar-title" onClick={this.showHomepage}>
-                    <img src={Router.getImage('hamster-standing.png')} id="header-bar-image"/>
+                    <img src={Router.getImage('hamster-face.png')} id="header-bar-image"/>
                 </div>
             </div>
         );
     };
 }
 HeaderBar.propTypes = {
-    changePage:     React.PropTypes.func.isRequired,
+    changePage:     PropTypes.func.isRequired,
 };
 
 export default HeaderBar;
