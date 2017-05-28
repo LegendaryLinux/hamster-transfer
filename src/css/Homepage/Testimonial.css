@@ -2,6 +2,8 @@
     width:              13em;
     height:             8em;
     text-align:         left;
+    display:            inline-block;
+    padding:            1em;
 }
 
 .testimonial p{
